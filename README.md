@@ -1,2 +1,2 @@
 # CSP-Project
-PLACEHOLDER
+This will be my Fitness/Nutrition Tracker app for Computer Science Principles
