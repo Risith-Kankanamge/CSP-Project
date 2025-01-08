@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness & Nutrition Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fitness & Nutrition Tracker</h1>
+        <div class="goal-section">
+            <p>Daily Calorie Goal: <span id="goal">2000</span> calories</p>
+            <button onclick="resetTracker()">Reset Day</button>
+        </div>
+        
+        <h2>Calorie Intake</h2>
+        <input type="number" id="calorieInput" placeholder="Enter calories for a meal">
+        <button onclick="logCalories()">Log Meal</button>
+        <p>Total Calories Consumed: <span id="caloriesConsumed">0</span></p>
+        
+        <h2>Calorie Burn</h2>
+        <input type="number" id="burnInput" placeholder="Enter calories burned">
+        <button onclick="logBurn()">Log Workout</button>
+        <p>Total Calories Burned: <span id="caloriesBurned">0</span></p>
+        
+        <h2>Progress</h2>
+        <div class="progress-bar">
+            <div id="progress" class="progress"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
